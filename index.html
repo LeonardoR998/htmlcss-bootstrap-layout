@@ -20,8 +20,11 @@
       <h2 class="fs-4 fw-lighter text-center mb-5">
         Layout a griglia con diversi breakpoint (sm, md, lg).
       </h2>
+
+      <!-- FIRST SECTION COL -->
+
       <div class="row g-0">
-        <div class="col-12">
+        <div class="col-12 col-md-6 col-lg-4 mb-lg-5">
           <div class="bg-light p-3">
             <h1>Colonna 1</h1>
             <p>
@@ -30,8 +33,8 @@
             </p>
           </div>
         </div>
-        <div class="col-12">
-          <div class="bg-dark-subtle text-white p-3 mb-4">
+        <div class="col-12 col-md-6 col-lg-8 mb-5">
+          <div class="bg-dark-subtle text-white p-3 h-100">
             <h1>Colonna 2</h1>
             <p>
               Larghezza intera su dispositivi piccoli, metà larghezza su
@@ -39,8 +42,12 @@
             </p>
           </div>
         </div>
+      </div>
 
-        <div class="col-6">
+      <!-- SECOND SECTION COL -->
+
+      <div class="row g-0">
+        <div class="col-6 col-md-4 col-lg-4 mb-md-5">
           <div class="bg-primary text-white p-3">
             <h1>Colonna 1</h1>
             <p>
@@ -50,7 +57,7 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-6 col-md-4 col-lg-4 mb-md-5">
           <div class="bg-success text-white p-3">
             <h1>Colonna 2</h1>
             <p>
@@ -60,8 +67,8 @@
           </div>
         </div>
 
-        <div class="col-12">
-          <div class="bg-danger text-white p-3 mb-4">
+        <div class="col-12 col-md-4 col-lg-4 mb-5 ">
+          <div class="bg-danger text-white p-3 h-100">
             <h1>Colonna 3</h1>
             <p>
               Larghezza intera su dispositivi piccoli (col-12) e un terzo su
@@ -70,27 +77,31 @@
           </div>
         </div>
 
-        <div class="col-6">
-          <div class="bg-info text-white p-3">
-            <h1>Colonna 1</h1>
-            <p>
-              Metà larghezza su dispositivi piccoli e un quarto su dispositivi
-              medi e più grandi
-            </p>
-          </div>
-        </div>
+        <!-- THIRD SECTION COL -->
 
-        <div class="col-6">
-          <div class="bg-warning text-white p-3">
+        <div class="row g-0">
+          <div class="col-6 col-md-3">
+            <div class="bg-info text-white p-3">
+              <h1>Colonna 1</h1>
+              <p>
+                Metà larghezza su dispositivi piccoli e un quarto su dispositivi
+                medi e più grandi
+              </p>
+            </div>
+          </div>
+        
+
+         <div class="col-6 col-md-3">
+          <div class="bg-warning text-white p-3 h-100">
             <h1>Colonna2</h1>
             <p>
               Metà larghezza su dispositivi piccoli e un quarto su dispositivi
               medi e più grandi
             </p>
           </div>
-        </div>
+         </div>
 
-        <div class="col-6">
+         <div class="col-6 col-md-3">
           <div class="bg-dark text-white p-3">
             <h1>Colonna 3</h1>
             <p>
@@ -98,9 +109,9 @@
               medi e più grandi
             </p>
           </div>
-        </div>
+         </div>
 
-        <div class="col-6">
+         <div class="col-6 col-md-3">
           <div class="bg-light p-3">
             <h1>Colonna 4</h1>
             <p>
